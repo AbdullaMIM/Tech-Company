@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImg from '../assets/cyber-bg.png'
+import bgImg from '../assets/bg.png'
 import {MdOutlineWeb} from "react-icons/md"
 import {ImMobile} from "react-icons/im"
 import {BiDesktop} from "react-icons/bi"
@@ -26,12 +26,12 @@ const Hero = () => {
              <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[5%]
                              mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
                              border border-slate-300 rounded-xl text-center shadow-xl' >
-                <p>Development Services</p>
+                <p className='font-medium'>Development Services</p>
                  <div className='flex justify-between flex-wrap px-4'>
-                    <p className='flex px-4 py-2 text-slate-500'><ImMobile className='h-5 text-indigo-600'/>Mobile Application</p>
-                    <p className='flex px-4 py-2 text-slate-500'><MdOutlineWeb className='h-6 text-indigo-600'/>Web Application </p>
-                    <p className='flex px-4 py-2 text-slate-500'><BiDesktop className='h-6 text-indigo-600'/>Desktop Application</p>
-                    <p className='flex px-3 py-2 text-slate-500'><HiPaperAirplane className='h-6 text-indigo-600'/>Rapid Application</p>
+                    <p className='flex px-4 py-2 text-slate-600'><ImMobile className='h-5 text-indigo-600'/>Mobile Application</p>
+                    <p className='flex px-4 py-2 text-slate-600'><MdOutlineWeb className='h-6 text-indigo-600'/>Web Application </p>
+                    <p className='flex px-4 py-2 text-slate-600'><BiDesktop className='h-6 text-indigo-600'/>Desktop Application</p>
+                    <p className='flex px-3 py-2 text-slate-600'><HiPaperAirplane className='h-6 text-indigo-600'/>Rapid Application</p>
                  </div>
              </div>
 

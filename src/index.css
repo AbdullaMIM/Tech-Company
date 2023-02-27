@@ -5,7 +5,7 @@
 @layer base {
     li {
         @apply p-4
-        hover:text-indigo-700 hover:font-bold text-lg
+        hover:text-indigo-600 hover:font-medium  
     }
 
     button {

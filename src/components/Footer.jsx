@@ -53,9 +53,9 @@ const Footer = () => {
             </div>
             <div className='col-span-2 pt-8 md:pt-2'>
                 <p className='font-bold uppercase'>Subscribe to our newsletter</p>
-                <p className='py-4'>The latest news, articles, and resources, sent to your inbox weekly.</p>
-                <form className='flex flex-col sm:flex-row'>
-                    <input className='w-full p-2 mr-4 rounded-md mb-4' type="email" placeholder='Enter email..'/>
+                <p className='py-4'>The latest news, articles, and resources, sent to your inbox daily.</p>
+                <form className='flex flex-col sm:flex-row' method="POST" action="https://getform.io/f/29a3084e-0ccf-44b3-95d1-b50597bc2cc3">
+                    <input className='w-full p-2 mr-4 rounded-md mb-4' type="email" placeholder='Enter email..' required/>
                     <button className='p-2 mb-4'>Subscribe</button>
                 </form>
             </div>

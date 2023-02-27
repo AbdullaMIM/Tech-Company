@@ -19,7 +19,7 @@ const Navbar = () => {
             
             <div className='flex items-center'>
                  <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>POWERSOFT.</h1>
-                 <ul className='hidden md:flex ml-6'>
+                 <ul className='hidden md:flex ml-6 text-[18px] text-gray-800'>
                    <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
                    <li><Link to="about" smooth={true} offset={-200} duration={500}>About</Link></li>
                    <li><Link to="support" smooth={true} offset={-50} duration={500}>Support</Link></li>
@@ -28,9 +28,9 @@ const Navbar = () => {
                  </ul>
             </div>
             
-            <div className='hidden md:flex pr-4 text-lg'>
+            <div className='hidden md:flex pr-4'>
                  <button className='border-none bg-transparent text-black mr-4'>Sign In</button>
-                 <button className='px-4 py-2'>Sign Up</button>
+                 <button className='px-2 py-1'>Sign Up</button>
             </div>
 
             <div className='md:hidden mr-4' onClick={handleClick}>
